@@ -116,7 +116,7 @@ body{
 }
 
 /* Responsive */
-@media screen and (max-width:550px) {
+@media screen and (max-width:1000px) {
 .menu{
     display:none;
 }
@@ -167,50 +167,4 @@ body{
     
 }
 
-/* For Tab and iPad */
-@media screen and (max-width:900px) {
-    .menu{
-        display:none;
-    }
-    .navbar{
-        display: flex;
-        justify-content: right;
-    }
-    .page1{
-        display: block;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .rh-side{
-        display: flex;
-        justify-content: space-around;
-    }
-    .lh-side{
-        max-width: 90%;
-        text-align: center;
-    }
-    .lh-txt{
-        display: flex;
-        justify-content: space-around;
-        max-width: 100%;
-        width: 100%;
-        
-    }
-    .lh-side p{
-        text-align: justify;
-    }
-    .image{
-        max-width: 90%;
-        height: 400px;
-    
-    }
-    .page2{
-        flex-direction: column;
-    }
-    .images{
-        align-items: center;
-    }
-    
-        
-    }
 
